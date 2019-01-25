@@ -1,0 +1,35 @@
+select * from products;
+
+-- create table products (
+--     product_id serial primary key not null,
+--     product_name varchar(50) not null,
+--     product_price integer not null,
+--     image_url text not null
+--     )
+-- insert into products (
+--     product_name,
+--     product_price,
+--     image_url
+-- ) values (
+--     'Levi Jeans',
+--     65,
+--     'https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Levi-s-502-Medium-Blue-Regular-Fit-Jeans-_288427-front.jpg'
+-- ),
+-- insert into products (
+--     product_name,
+--     product_price,
+--     image_url
+-- ) values (
+--     'Faux Fur Jacket',
+--     150,
+--     'https://cdnc.lystit.com/photos/asos/35572a77/asos-Stone-Faux-Fur-Jacket-With-Hood-In-Stone.jpeg'
+-- ),
+-- insert into products (
+--     product_name,
+--     product_price,
+--     image_url
+-- ) values (
+--     'Cole Haans',
+--     205,
+--     'https://images.menswearhouse.com/is/image/TMW/MW40_409W_05_COLE_HAAN_TAN_SET?$40MainPDP$'
+-- )
