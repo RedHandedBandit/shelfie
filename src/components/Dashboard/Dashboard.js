@@ -8,15 +8,11 @@ class Dashboard extends Component {
     }
 
     render(){
-        // let newInventory = this.props.inventory.map((el,index) => {
-        //     return(
-        //         <Product key={index} info={el} />
-        //     )
-        // })
+        
         return(
             <div> 
                 Dashboard
-                {/* {newInventory} */}
+                
                 
             </div>
         )

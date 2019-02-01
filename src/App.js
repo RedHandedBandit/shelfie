@@ -13,8 +13,7 @@ class App extends Component {
     super()
     this.state ={ 
       inventory: []
-      
-    }
+      }
     this.componentDidMount = this.componentDidMount.bind(this)
   }
 
@@ -30,15 +29,18 @@ class App extends Component {
       }
     )
   }
+
+
   
 
 
   render() {
-    let thisInventory = this.state.inventory.map(el => {
+    let thisInventory = this.state.inventory.map((el, i) => {
       return (
-        <h3> 
-        {el.product_name} {el.product_price} 
-        </h3>
+        <div key={i}> 
+          <h3> {el.product_name} </h3>
+          <h3> {el.product_price} </h3>
+        </div>
       )
      
     }) 
@@ -48,7 +50,7 @@ class App extends Component {
         <Form />
         <Header />
         {/* {console.log('is this empty',this.state.inventory)} */}
-        {thisInventory}
+        {thisInventory} 
        
       
 
